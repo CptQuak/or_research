@@ -1,0 +1,83 @@
+.venv
+*.egg-info
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+sdist/
+var/
+*.whl
+*.zip
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+env/
+
+# IDEs
+.idea/
+.vscode/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Data files
+*.csv
+*.json
+*.pkl
+*.npy
+*.npz
+
+# Models
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Temporary files
+*.tmp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation
+_build/
+
+# Environment variables
+.env
+.flaskenv
+
+# Docker
+Dockerfile.build
+*.dockerignore
+
+# Misc
+*.bak
+*.swp
